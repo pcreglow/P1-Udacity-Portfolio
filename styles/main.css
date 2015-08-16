@@ -1,0 +1,63 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header {
+  border-bottom: 2px solid #bcbbbb;
+}
+.main-image {
+  width: 100%;
+}
+.text-muted {
+  color: #bcbbbb;
+  margin-bottom: 1em;
+}
+.text-thin {
+  font-weight: 100;
+}
+.title-logo {
+  margin-top: 20px;
+  width: 8em;
+  height: 8em;
+  float: left;
+}
+.title-super {
+  font-size: 35px;
+}
