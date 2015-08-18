@@ -33,31 +33,36 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #747704;
   font-weight: 300;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
 }
+
 .header {
   border-bottom: 2px solid #bcbbbb;
 }
+
 .main-image {
   width: 100%;
 }
+
 .text-muted {
   color: #bcbbbb;
   margin-bottom: 1em;
 }
+
 .text-thin {
   font-weight: 100;
 }
+
 .title-logo {
   margin-top: 20px;
   width: 8em;
   height: 8em;
   float: left;
 }
+
 .title-super {
   font-size: 35px;
 }
